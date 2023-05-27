@@ -24,7 +24,7 @@ public class Dp{
 
 public static int fib(int n){
 
-if (n == 0 || n == 1){
+if (n == 0 || n == 1){ - O(2^n)
 
 return n;
 
@@ -51,7 +51,7 @@ public class Dp{
 
 public static int fib(int n, int f[]){
 
-if (n == 0 || n == 1){
+if (n == 0 || n == 1){ O(n)
 
 return n;
 
