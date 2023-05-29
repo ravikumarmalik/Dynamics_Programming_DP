@@ -1,6 +1,6 @@
 # Dynamics_Programming_DP
 
-DP is an optimization recurtion.
+DP is an optimization recursion.
 Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming.
 The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later.
 This simple optimization reduces time complexities from exponential O(2^n) to polynomial O(n).
